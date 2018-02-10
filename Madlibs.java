@@ -17,8 +17,8 @@ public class Madlibs {
 				"Once upon a time, there was a A1 A2 N1 named C1 who\n"
 				+ "always thought about N2 even while V1 or V2 .\n" 
 				+ "But AV1 , C1 was changed by a A3 event.\n" +  
-				"A N2 V3 AV2 so C1 could never\n" + 
-				"think about N1 in the same way again.\n" + 
+				"A N3 V3 AV2 so C1 could never\n" + 
+				"think about N2 in the same way again.\n" + 
 				"The end.\n");
 		//Build a TreeMap to match words with blanks
 		//keys are taken from myStory
@@ -34,6 +34,7 @@ public class Madlibs {
 		myBlanks.put("AV1", "Adverb: ");
 		myBlanks.put("A3", "Adjective: ");
 		myBlanks.put("N2", "Noun: ");
+		myBlanks.put("N3", "Noun: ");
 		myBlanks.put("V3", "Past tense verb: ");
 		myBlanks.put("AV2", "Adverb: ");
 	
